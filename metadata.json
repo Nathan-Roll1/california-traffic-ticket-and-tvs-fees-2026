@@ -1,0 +1,37 @@
+{
+  "datasetVersion": "2026-11-17.1",
+  "publisher": "California Licensing Education",
+  "createdAt": "2026-11-17",
+  "currency": "USD",
+  "ticketReferenceCount": 48,
+  "liveTicketReferenceCount": 40,
+  "pendingTicketReferenceCount": 8,
+  "liveTicketCounties": 5,
+  "pendingTicketCounties": [
+    "Santa Barbara"
+  ],
+  "unsupportedTicketCounties": 52,
+  "courtFeeObservations": 25,
+  "courtFeeNumericObservations": 20,
+  "courtFeeUnknownObservations": 5,
+  "schoolLiveCommit": "8abf342d66feda3e038e3457b7cf57462d456bad",
+  "schoolPendingCommit": "ea5c02c7d3b5f907b846d0bf762c8b5bbada1402",
+  "pendingPullRequest": "https://github.com/Nathan-Roll1/dmv-school/pull/209",
+  "schoolLivePagesDeploymentId": "861b9fb2-47ee-4aa5-8ff5-68d7d024edd3",
+  "decoderUrl": "https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/",
+  "costGuideUrl": "https://traffic.californialicensingeducation.com/traffic-school-cost/",
+  "courtFeeGuideUrl": "https://traffic.californialicensingeducation.com/traffic-school-court-fees/",
+  "license": "CC-BY-4.0",
+  "licenseScope": "Original selection, arrangement, annotations and curation only, to the extent copyright or database rights apply. No claim to relicense third-party source documents or facts.",
+  "inputs": {
+    "liveTicketDataSha256": "8cf26a671bfd256dfe11ac7de3b54ef55643090df54ca1c3d51b24402a2be747",
+    "candidateTicketDataSha256": "d43e2a64ab7d3f3ec30979876c8204207058a16107d27d2791eaa7612674cb9e",
+    "courtFeeTableSha256": "879810628311a1ca1cc0f85d53a23f6f369bbe09337d07702b5561f1b67469c4"
+  },
+  "legalReference": {
+    "citation": "California Vehicle Code §11219.5",
+    "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11219.5.&lawCode=VEH",
+    "checkedAt": "2026-11-17",
+    "result": "Official endpoint returned HTTP403. No statutory text, fee cap or calculation rule is derived from this blocked source in the dataset."
+  }
+}

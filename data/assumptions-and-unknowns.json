@@ -1,0 +1,163 @@
+{
+  "assumptions": [
+    "A single adult ordinary first-offense infraction, without prior-conviction enhancements.",
+    "No construction, maintenance, safety-enhancement or other enhanced-penalty zone.",
+    "No commercial-vehicle, over-100-mph or other special offense or enhancement.",
+    "The selected code, subsection and speed band match the citation; this tool does not decide guilt.",
+    "Posted schedule rows or explicitly labeled calculated local references, not a court case lookup, payment demand or traffic-school eligibility decision.",
+    "Do not add these references across multiple charges: rounding can apply to the aggregate base, and case-specific charges, reductions and court discretion are not modeled."
+  ],
+  "unknowns": [
+    "Your actual court balance and deadline.",
+    "Additional case charges, adjustments, reductions or required appearance.",
+    "Court permission for traffic school and the separate court traffic-school charge.",
+    "School tuition and any insurance effect."
+  ],
+  "years": {
+    "2026": {
+      "status": "reviewed-county-references",
+      "sourceIds": [
+        "siskiyou2026",
+        "glenn2026",
+        "losAngeles2026",
+        "losAngelesFees2024",
+        "uniform2026",
+        "sanDiego2026",
+        "ematLegislation2022",
+        "orange2026",
+        "santaBarbara2026",
+        "santaBarbaraBreakdown2023"
+      ]
+    },
+    "2027": {
+      "status": "adoption-not-verified",
+      "sourceIds": [
+        "proposal2027",
+        "timeline2027"
+      ]
+    }
+  },
+  "codes": [
+    {
+      "code": "22349(a)",
+      "label": "Exceeding the 65 mph maximum speed limit",
+      "speedBands": [
+        "1-15",
+        "16-25",
+        "26-plus"
+      ],
+      "points": 1,
+      "notes": [
+        "This subsection concerns the 65 mph maximum. Confirm the exact subsection on the citation.",
+        "Driving over 100 mph is a different offense and is outside this lookup."
+      ],
+      "sourceIds": [
+        "siskiyou2026",
+        "glenn2026"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "siskiyou2026",
+          "pages": [
+            27
+          ]
+        },
+        {
+          "sourceId": "glenn2026",
+          "pages": [
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "code": "22350",
+      "label": "Unsafe speed for prevailing conditions",
+      "speedBands": [
+        "1-15",
+        "16-25",
+        "26-plus"
+      ],
+      "points": 1,
+      "notes": [
+        "A posted-limit speed difference alone does not determine whether driving was safe for conditions.",
+        "If the citation cannot be matched to one of these schedule bands, ask the court; no zero-or-below-limit price is inferred."
+      ],
+      "sourceIds": [
+        "siskiyou2026",
+        "glenn2026"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "siskiyou2026",
+          "pages": [
+            27
+          ]
+        },
+        {
+          "sourceId": "glenn2026",
+          "pages": [
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "code": "21453(a)",
+      "label": "Red signal: vehicular responsibilities",
+      "speedBands": [],
+      "points": 1,
+      "notes": [
+        "Confirm subsection (a). The schedule has a separate lower-priced subsection (b) row; this lookup never substitutes it."
+      ],
+      "sourceIds": [
+        "siskiyou2026",
+        "glenn2026"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "siskiyou2026",
+          "pages": [
+            24
+          ]
+        },
+        {
+          "sourceId": "glenn2026",
+          "pages": [
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "code": "23123.5(a)",
+      "label": "Holding and operating a handheld wireless telephone or electronic communications device while driving",
+      "speedBands": [],
+      "points": 0,
+      "notes": [
+        "Zero points is the ordinary first-offense schedule entry, not a statement that every device violation is point-free.",
+        "A qualifying repeat conviction within 36 months can carry a point under Vehicle Code 12810.3. Repeat fines and eligibility are outside this lookup."
+      ],
+      "sourceIds": [
+        "siskiyou2026",
+        "glenn2026"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "siskiyou2026",
+          "pages": [
+            30,
+            52
+          ]
+        },
+        {
+          "sourceId": "glenn2026",
+          "pages": [
+            34,
+            57
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+county,liveTicketReferenceCount,pendingTicketReferenceCount,ticketAmountCoverage,hasCourtSchoolFeeObservation
+Alameda,0,0,unsupported_unknown,True
+Alpine,0,0,unsupported_unknown,False
+Amador,0,0,unsupported_unknown,False
+Butte,0,0,unsupported_unknown,False
+Calaveras,0,0,unsupported_unknown,False
+Colusa,0,0,unsupported_unknown,False
+Contra Costa,0,0,unsupported_unknown,True
+Del Norte,0,0,unsupported_unknown,False
+El Dorado,0,0,unsupported_unknown,False
+Fresno,0,0,unsupported_unknown,True
+Glenn,8,0,supported_live,False
+Humboldt,0,0,unsupported_unknown,False
+Imperial,0,0,unsupported_unknown,False
+Inyo,0,0,unsupported_unknown,False
+Kern,0,0,unsupported_unknown,True
+Kings,0,0,unsupported_unknown,False
+Lake,0,0,unsupported_unknown,False
+Lassen,0,0,unsupported_unknown,False
+Los Angeles,8,0,supported_live,True
+Madera,0,0,unsupported_unknown,False
+Marin,0,0,unsupported_unknown,True
+Mariposa,0,0,unsupported_unknown,False
+Mendocino,0,0,unsupported_unknown,False
+Merced,0,0,unsupported_unknown,False
+Modoc,0,0,unsupported_unknown,False
+Mono,0,0,unsupported_unknown,False
+Monterey,0,0,unsupported_unknown,True
+Napa,0,0,unsupported_unknown,False
+Nevada,0,0,unsupported_unknown,False
+Orange,8,0,supported_live,True
+Placer,0,0,unsupported_unknown,True
+Plumas,0,0,unsupported_unknown,False
+Riverside,0,0,unsupported_unknown,True
+Sacramento,0,0,unsupported_unknown,True
+San Benito,0,0,unsupported_unknown,False
+San Bernardino,0,0,unsupported_unknown,True
+San Diego,8,0,supported_live,True
+San Francisco,0,0,unsupported_unknown,True
+San Joaquin,0,0,unsupported_unknown,True
+San Luis Obispo,0,0,unsupported_unknown,True
+San Mateo,0,0,unsupported_unknown,True
+Santa Barbara,0,8,reviewed_pending_school_release,True
+Santa Clara,0,0,unsupported_unknown,True
+Santa Cruz,0,0,unsupported_unknown,True
+Shasta,0,0,unsupported_unknown,False
+Sierra,0,0,unsupported_unknown,False
+Siskiyou,8,0,supported_live,False
+Solano,0,0,unsupported_unknown,True
+Sonoma,0,0,unsupported_unknown,True
+Stanislaus,0,0,unsupported_unknown,True
+Sutter,0,0,unsupported_unknown,False
+Tehama,0,0,unsupported_unknown,False
+Trinity,0,0,unsupported_unknown,False
+Tulare,0,0,unsupported_unknown,True
+Tuolumne,0,0,unsupported_unknown,False
+Ventura,0,0,unsupported_unknown,True
+Yolo,0,0,unsupported_unknown,False
+Yuba,0,0,unsupported_unknown,False

@@ -1,0 +1,408 @@
+[
+  {
+    "county": "Alameda",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Alpine",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Amador",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Butte",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Calaveras",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Colusa",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Contra Costa",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Del Norte",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "El Dorado",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Fresno",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Glenn",
+    "liveTicketReferenceCount": 8,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "supported_live",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Humboldt",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Imperial",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Inyo",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Kern",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Kings",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Lake",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Lassen",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Los Angeles",
+    "liveTicketReferenceCount": 8,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "supported_live",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Madera",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Marin",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Mariposa",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Mendocino",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Merced",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Modoc",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Mono",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Monterey",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Napa",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Nevada",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Orange",
+    "liveTicketReferenceCount": 8,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "supported_live",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Placer",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Plumas",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Riverside",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Sacramento",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "San Benito",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "San Bernardino",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "San Diego",
+    "liveTicketReferenceCount": 8,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "supported_live",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "San Francisco",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "San Joaquin",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "San Luis Obispo",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "San Mateo",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Santa Barbara",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 8,
+    "ticketAmountCoverage": "reviewed_pending_school_release",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Santa Clara",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Santa Cruz",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Shasta",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Sierra",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Siskiyou",
+    "liveTicketReferenceCount": 8,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "supported_live",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Solano",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Sonoma",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Stanislaus",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Sutter",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Tehama",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Trinity",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Tulare",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Tuolumne",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Ventura",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": true
+  },
+  {
+    "county": "Yolo",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  },
+  {
+    "county": "Yuba",
+    "liveTicketReferenceCount": 0,
+    "pendingTicketReferenceCount": 0,
+    "ticketAmountCoverage": "unsupported_unknown",
+    "hasCourtSchoolFeeObservation": false
+  }
+]

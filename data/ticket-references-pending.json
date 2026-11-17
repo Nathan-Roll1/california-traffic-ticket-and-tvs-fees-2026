@@ -1,0 +1,554 @@
+[
+  {
+    "year": 2026,
+    "county": "Santa Barbara",
+    "code": "22349(a)",
+    "speedBand": "1-15",
+    "scenario": "ordinary-first-offense",
+    "baseFineCents": 3500,
+    "scheduledTotalCents": 22180,
+    "componentsCents": {
+      "baseFine": 3500,
+      "statePenalty": 4000,
+      "countyPenalty": 1680,
+      "dnaPenalty": 2000,
+      "courtConstructionPenalty": 2000,
+      "stateSurcharge": 700,
+      "emsPenalty": 800,
+      "courtOperations": 4000,
+      "convictionAssessment": 3500,
+      "nightCourt": 0,
+      "tapFee": 0
+    },
+    "sourceId": "santaBarbara2026",
+    "pdfPage": 29,
+    "scopePages": [
+      1,
+      3,
+      7,
+      8,
+      9,
+      10,
+      52,
+      53,
+      156
+    ],
+    "calculation": {
+      "kind": "derived-local-rules",
+      "formula": "Base + $26.20 × ceil(base ÷ $10) + 20% of base + $40 + $35. The final amount matches the 2026 printed offense row.",
+      "sourceReferences": [
+        {
+          "sourceId": "santaBarbara2026",
+          "pdfPages": [
+            29,
+            3,
+            7,
+            8,
+            10,
+            156,
+            52,
+            53
+          ]
+        },
+        {
+          "sourceId": "santaBarbaraBreakdown2023",
+          "pdfPages": [
+            1
+          ]
+        }
+      ]
+    },
+    "id": "2026-santa-barbara-22349-a-1-15",
+    "schoolPublicationStatus": "reviewed_pending_school_release",
+    "schoolSourceCommit": "ea5c02c7d3b5f907b846d0bf762c8b5bbada1402",
+    "pendingPullRequest": "https://github.com/Nathan-Roll1/dmv-school/pull/209",
+    "currency": "USD",
+    "reviewedAt": "2026-11-16",
+    "sourceUrl": "https://www.santabarbara.courts.ca.gov/system/files/general/uniform-bail-and-penalty-schedule-effective-january-1-2026.pdf",
+    "sourceSha256": "2bcf90cf479728c06878705c226c7a009903d85c636910c7e894db2a0e8367c5",
+    "referenceKind": "derived-local-rules"
+  },
+  {
+    "year": 2026,
+    "county": "Santa Barbara",
+    "code": "22349(a)",
+    "speedBand": "16-25",
+    "scenario": "ordinary-first-offense",
+    "baseFineCents": 7000,
+    "scheduledTotalCents": 34240,
+    "componentsCents": {
+      "baseFine": 7000,
+      "statePenalty": 7000,
+      "countyPenalty": 2940,
+      "dnaPenalty": 3500,
+      "courtConstructionPenalty": 3500,
+      "stateSurcharge": 1400,
+      "emsPenalty": 1400,
+      "courtOperations": 4000,
+      "convictionAssessment": 3500,
+      "nightCourt": 0,
+      "tapFee": 0
+    },
+    "sourceId": "santaBarbara2026",
+    "pdfPage": 29,
+    "scopePages": [
+      1,
+      3,
+      7,
+      8,
+      9,
+      10,
+      52,
+      53,
+      156
+    ],
+    "calculation": {
+      "kind": "derived-local-rules",
+      "formula": "Base + $26.20 × ceil(base ÷ $10) + 20% of base + $40 + $35. The final amount matches the 2026 printed offense row.",
+      "sourceReferences": [
+        {
+          "sourceId": "santaBarbara2026",
+          "pdfPages": [
+            29,
+            3,
+            7,
+            8,
+            10,
+            156,
+            52,
+            53
+          ]
+        },
+        {
+          "sourceId": "santaBarbaraBreakdown2023",
+          "pdfPages": [
+            1
+          ]
+        }
+      ]
+    },
+    "id": "2026-santa-barbara-22349-a-16-25",
+    "schoolPublicationStatus": "reviewed_pending_school_release",
+    "schoolSourceCommit": "ea5c02c7d3b5f907b846d0bf762c8b5bbada1402",
+    "pendingPullRequest": "https://github.com/Nathan-Roll1/dmv-school/pull/209",
+    "currency": "USD",
+    "reviewedAt": "2026-11-16",
+    "sourceUrl": "https://www.santabarbara.courts.ca.gov/system/files/general/uniform-bail-and-penalty-schedule-effective-january-1-2026.pdf",
+    "sourceSha256": "2bcf90cf479728c06878705c226c7a009903d85c636910c7e894db2a0e8367c5",
+    "referenceKind": "derived-local-rules"
+  },
+  {
+    "year": 2026,
+    "county": "Santa Barbara",
+    "code": "22349(a)",
+    "speedBand": "26-plus",
+    "scenario": "ordinary-first-offense",
+    "baseFineCents": 10000,
+    "scheduledTotalCents": 45700,
+    "componentsCents": {
+      "baseFine": 10000,
+      "statePenalty": 10000,
+      "countyPenalty": 4200,
+      "dnaPenalty": 5000,
+      "courtConstructionPenalty": 5000,
+      "stateSurcharge": 2000,
+      "emsPenalty": 2000,
+      "courtOperations": 4000,
+      "convictionAssessment": 3500,
+      "nightCourt": 0,
+      "tapFee": 0
+    },
+    "sourceId": "santaBarbara2026",
+    "pdfPage": 29,
+    "scopePages": [
+      1,
+      3,
+      7,
+      8,
+      9,
+      10,
+      52,
+      53,
+      156
+    ],
+    "calculation": {
+      "kind": "derived-local-rules",
+      "formula": "Base + $26.20 × ceil(base ÷ $10) + 20% of base + $40 + $35. The final amount matches the 2026 printed offense row.",
+      "sourceReferences": [
+        {
+          "sourceId": "santaBarbara2026",
+          "pdfPages": [
+            29,
+            3,
+            7,
+            8,
+            10,
+            156,
+            52,
+            53
+          ]
+        },
+        {
+          "sourceId": "santaBarbaraBreakdown2023",
+          "pdfPages": [
+            1
+          ]
+        }
+      ]
+    },
+    "id": "2026-santa-barbara-22349-a-26-plus",
+    "schoolPublicationStatus": "reviewed_pending_school_release",
+    "schoolSourceCommit": "ea5c02c7d3b5f907b846d0bf762c8b5bbada1402",
+    "pendingPullRequest": "https://github.com/Nathan-Roll1/dmv-school/pull/209",
+    "currency": "USD",
+    "reviewedAt": "2026-11-16",
+    "sourceUrl": "https://www.santabarbara.courts.ca.gov/system/files/general/uniform-bail-and-penalty-schedule-effective-january-1-2026.pdf",
+    "sourceSha256": "2bcf90cf479728c06878705c226c7a009903d85c636910c7e894db2a0e8367c5",
+    "referenceKind": "derived-local-rules"
+  },
+  {
+    "year": 2026,
+    "county": "Santa Barbara",
+    "code": "22350",
+    "speedBand": "1-15",
+    "scenario": "ordinary-first-offense",
+    "baseFineCents": 3500,
+    "scheduledTotalCents": 22180,
+    "componentsCents": {
+      "baseFine": 3500,
+      "statePenalty": 4000,
+      "countyPenalty": 1680,
+      "dnaPenalty": 2000,
+      "courtConstructionPenalty": 2000,
+      "stateSurcharge": 700,
+      "emsPenalty": 800,
+      "courtOperations": 4000,
+      "convictionAssessment": 3500,
+      "nightCourt": 0,
+      "tapFee": 0
+    },
+    "sourceId": "santaBarbara2026",
+    "pdfPage": 29,
+    "scopePages": [
+      1,
+      3,
+      7,
+      8,
+      9,
+      10,
+      52,
+      53,
+      156
+    ],
+    "calculation": {
+      "kind": "derived-local-rules",
+      "formula": "Base + $26.20 × ceil(base ÷ $10) + 20% of base + $40 + $35. The final amount matches the 2026 printed offense row.",
+      "sourceReferences": [
+        {
+          "sourceId": "santaBarbara2026",
+          "pdfPages": [
+            29,
+            3,
+            7,
+            8,
+            10,
+            156,
+            52,
+            53
+          ]
+        },
+        {
+          "sourceId": "santaBarbaraBreakdown2023",
+          "pdfPages": [
+            1
+          ]
+        }
+      ]
+    },
+    "id": "2026-santa-barbara-22350-1-15",
+    "schoolPublicationStatus": "reviewed_pending_school_release",
+    "schoolSourceCommit": "ea5c02c7d3b5f907b846d0bf762c8b5bbada1402",
+    "pendingPullRequest": "https://github.com/Nathan-Roll1/dmv-school/pull/209",
+    "currency": "USD",
+    "reviewedAt": "2026-11-16",
+    "sourceUrl": "https://www.santabarbara.courts.ca.gov/system/files/general/uniform-bail-and-penalty-schedule-effective-january-1-2026.pdf",
+    "sourceSha256": "2bcf90cf479728c06878705c226c7a009903d85c636910c7e894db2a0e8367c5",
+    "referenceKind": "derived-local-rules"
+  },
+  {
+    "year": 2026,
+    "county": "Santa Barbara",
+    "code": "22350",
+    "speedBand": "16-25",
+    "scenario": "ordinary-first-offense",
+    "baseFineCents": 7000,
+    "scheduledTotalCents": 34240,
+    "componentsCents": {
+      "baseFine": 7000,
+      "statePenalty": 7000,
+      "countyPenalty": 2940,
+      "dnaPenalty": 3500,
+      "courtConstructionPenalty": 3500,
+      "stateSurcharge": 1400,
+      "emsPenalty": 1400,
+      "courtOperations": 4000,
+      "convictionAssessment": 3500,
+      "nightCourt": 0,
+      "tapFee": 0
+    },
+    "sourceId": "santaBarbara2026",
+    "pdfPage": 29,
+    "scopePages": [
+      1,
+      3,
+      7,
+      8,
+      9,
+      10,
+      52,
+      53,
+      156
+    ],
+    "calculation": {
+      "kind": "derived-local-rules",
+      "formula": "Base + $26.20 × ceil(base ÷ $10) + 20% of base + $40 + $35. The final amount matches the 2026 printed offense row.",
+      "sourceReferences": [
+        {
+          "sourceId": "santaBarbara2026",
+          "pdfPages": [
+            29,
+            3,
+            7,
+            8,
+            10,
+            156,
+            52,
+            53
+          ]
+        },
+        {
+          "sourceId": "santaBarbaraBreakdown2023",
+          "pdfPages": [
+            1
+          ]
+        }
+      ]
+    },
+    "id": "2026-santa-barbara-22350-16-25",
+    "schoolPublicationStatus": "reviewed_pending_school_release",
+    "schoolSourceCommit": "ea5c02c7d3b5f907b846d0bf762c8b5bbada1402",
+    "pendingPullRequest": "https://github.com/Nathan-Roll1/dmv-school/pull/209",
+    "currency": "USD",
+    "reviewedAt": "2026-11-16",
+    "sourceUrl": "https://www.santabarbara.courts.ca.gov/system/files/general/uniform-bail-and-penalty-schedule-effective-january-1-2026.pdf",
+    "sourceSha256": "2bcf90cf479728c06878705c226c7a009903d85c636910c7e894db2a0e8367c5",
+    "referenceKind": "derived-local-rules"
+  },
+  {
+    "year": 2026,
+    "county": "Santa Barbara",
+    "code": "22350",
+    "speedBand": "26-plus",
+    "scenario": "ordinary-first-offense",
+    "baseFineCents": 10000,
+    "scheduledTotalCents": 45700,
+    "componentsCents": {
+      "baseFine": 10000,
+      "statePenalty": 10000,
+      "countyPenalty": 4200,
+      "dnaPenalty": 5000,
+      "courtConstructionPenalty": 5000,
+      "stateSurcharge": 2000,
+      "emsPenalty": 2000,
+      "courtOperations": 4000,
+      "convictionAssessment": 3500,
+      "nightCourt": 0,
+      "tapFee": 0
+    },
+    "sourceId": "santaBarbara2026",
+    "pdfPage": 29,
+    "scopePages": [
+      1,
+      3,
+      7,
+      8,
+      9,
+      10,
+      52,
+      53,
+      156
+    ],
+    "calculation": {
+      "kind": "derived-local-rules",
+      "formula": "Base + $26.20 × ceil(base ÷ $10) + 20% of base + $40 + $35. The final amount matches the 2026 printed offense row.",
+      "sourceReferences": [
+        {
+          "sourceId": "santaBarbara2026",
+          "pdfPages": [
+            29,
+            3,
+            7,
+            8,
+            10,
+            156,
+            52,
+            53
+          ]
+        },
+        {
+          "sourceId": "santaBarbaraBreakdown2023",
+          "pdfPages": [
+            1
+          ]
+        }
+      ]
+    },
+    "id": "2026-santa-barbara-22350-26-plus",
+    "schoolPublicationStatus": "reviewed_pending_school_release",
+    "schoolSourceCommit": "ea5c02c7d3b5f907b846d0bf762c8b5bbada1402",
+    "pendingPullRequest": "https://github.com/Nathan-Roll1/dmv-school/pull/209",
+    "currency": "USD",
+    "reviewedAt": "2026-11-16",
+    "sourceUrl": "https://www.santabarbara.courts.ca.gov/system/files/general/uniform-bail-and-penalty-schedule-effective-january-1-2026.pdf",
+    "sourceSha256": "2bcf90cf479728c06878705c226c7a009903d85c636910c7e894db2a0e8367c5",
+    "referenceKind": "derived-local-rules"
+  },
+  {
+    "year": 2026,
+    "county": "Santa Barbara",
+    "code": "21453(a)",
+    "speedBand": null,
+    "scenario": "ordinary-first-offense",
+    "baseFineCents": 10000,
+    "scheduledTotalCents": 45700,
+    "componentsCents": {
+      "baseFine": 10000,
+      "statePenalty": 10000,
+      "countyPenalty": 4200,
+      "dnaPenalty": 5000,
+      "courtConstructionPenalty": 5000,
+      "stateSurcharge": 2000,
+      "emsPenalty": 2000,
+      "courtOperations": 4000,
+      "convictionAssessment": 3500,
+      "nightCourt": 0,
+      "tapFee": 0
+    },
+    "sourceId": "santaBarbara2026",
+    "pdfPage": 26,
+    "scopePages": [
+      1,
+      3,
+      7,
+      8,
+      9,
+      10,
+      52,
+      53,
+      156
+    ],
+    "calculation": {
+      "kind": "derived-local-rules",
+      "formula": "Base + $26.20 × ceil(base ÷ $10) + 20% of base + $40 + $35. The final amount matches the 2026 printed offense row.",
+      "sourceReferences": [
+        {
+          "sourceId": "santaBarbara2026",
+          "pdfPages": [
+            26,
+            3,
+            7,
+            8,
+            10,
+            156,
+            52,
+            53
+          ]
+        },
+        {
+          "sourceId": "santaBarbaraBreakdown2023",
+          "pdfPages": [
+            1
+          ]
+        }
+      ]
+    },
+    "id": "2026-santa-barbara-21453-a-not-applicable",
+    "schoolPublicationStatus": "reviewed_pending_school_release",
+    "schoolSourceCommit": "ea5c02c7d3b5f907b846d0bf762c8b5bbada1402",
+    "pendingPullRequest": "https://github.com/Nathan-Roll1/dmv-school/pull/209",
+    "currency": "USD",
+    "reviewedAt": "2026-11-16",
+    "sourceUrl": "https://www.santabarbara.courts.ca.gov/system/files/general/uniform-bail-and-penalty-schedule-effective-january-1-2026.pdf",
+    "sourceSha256": "2bcf90cf479728c06878705c226c7a009903d85c636910c7e894db2a0e8367c5",
+    "referenceKind": "derived-local-rules"
+  },
+  {
+    "year": 2026,
+    "county": "Santa Barbara",
+    "code": "23123.5(a)",
+    "speedBand": null,
+    "scenario": "ordinary-first-offense",
+    "baseFineCents": 2000,
+    "scheduledTotalCents": 15140,
+    "componentsCents": {
+      "baseFine": 2000,
+      "statePenalty": 2000,
+      "countyPenalty": 840,
+      "dnaPenalty": 1000,
+      "courtConstructionPenalty": 1000,
+      "stateSurcharge": 400,
+      "emsPenalty": 400,
+      "courtOperations": 4000,
+      "convictionAssessment": 3500,
+      "nightCourt": 0,
+      "tapFee": 0
+    },
+    "sourceId": "santaBarbara2026",
+    "pdfPage": 31,
+    "scopePages": [
+      1,
+      3,
+      7,
+      8,
+      9,
+      10,
+      52,
+      53,
+      156
+    ],
+    "calculation": {
+      "kind": "derived-local-rules",
+      "formula": "Base + $26.20 × ceil(base ÷ $10) + 20% of base + $40 + $35. The final amount matches the 2026 printed offense row.",
+      "sourceReferences": [
+        {
+          "sourceId": "santaBarbara2026",
+          "pdfPages": [
+            31,
+            3,
+            7,
+            8,
+            10,
+            156,
+            52,
+            53
+          ]
+        },
+        {
+          "sourceId": "santaBarbaraBreakdown2023",
+          "pdfPages": [
+            1
+          ]
+        }
+      ]
+    },
+    "id": "2026-santa-barbara-23123_5-a-not-applicable",
+    "schoolPublicationStatus": "reviewed_pending_school_release",
+    "schoolSourceCommit": "ea5c02c7d3b5f907b846d0bf762c8b5bbada1402",
+    "pendingPullRequest": "https://github.com/Nathan-Roll1/dmv-school/pull/209",
+    "currency": "USD",
+    "reviewedAt": "2026-11-16",
+    "sourceUrl": "https://www.santabarbara.courts.ca.gov/system/files/general/uniform-bail-and-penalty-schedule-effective-january-1-2026.pdf",
+    "sourceSha256": "2bcf90cf479728c06878705c226c7a009903d85c636910c7e894db2a0e8367c5",
+    "referenceKind": "derived-local-rules"
+  }
+]
