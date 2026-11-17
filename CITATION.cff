@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the dataset version you used and consult the official source linked on each row."
+title: "California Traffic Ticket and Traffic-School Court Fees (2026)"
+type: dataset
+authors:
+  - name: "California Licensing Education"
+    website: "https://californialicensingeducation.com/"
+version: "2026-11-17.3"
+date-released: 2026-11-17
+license: CC-BY-4.0
+repository-code: "https://github.com/Nathan-Roll1/california-traffic-ticket-and-tvs-fees-2026"
+url: "https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/"
+abstract: >-
+  Dated, source-linked ordinary first-offense ticket schedule references and
+  county court traffic-school fee observations in California. This edition
+  includes 49 ticket references across six counties and 25 court fee observations.
+  The license covers original curation and annotations. The issuing court
+  determines the amount due and eligibility in an individual case.
