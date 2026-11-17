@@ -40,7 +40,7 @@ San Francisco,0,0,unsupported_unknown,True
 San Joaquin,0,0,unsupported_unknown,True
 San Luis Obispo,0,0,unsupported_unknown,True
 San Mateo,0,0,unsupported_unknown,True
-Santa Barbara,0,8,reviewed_pending_school_release,True
+Santa Barbara,8,0,supported_live,True
 Santa Clara,0,0,unsupported_unknown,True
 Santa Cruz,0,0,unsupported_unknown,True
 Shasta,0,0,unsupported_unknown,False
