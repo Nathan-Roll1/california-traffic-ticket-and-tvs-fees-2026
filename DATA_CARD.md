@@ -1,10 +1,10 @@
 # Data card
 
-Version: 2026-11-17.2. Curator: California Licensing Education. Language: English. Currency: USD. Coverage year: 2026 only. No student-level or case-level data.
+Version: 2026-11-17.3. Curator: California Licensing Education. Language: English. Currency: USD. Coverage year: 2026 only. No student-level or case-level data.
 
 ## Method
 
-This export preserves reviewed, manually sourced school reference data. Source PDF hashes, physical page numbers, county scope, printed edition dates and derivation references accompany the rows. It is not an automated statewide scrape. All 48 rows now match the verified school website release. Version 2026-11-17.2 promotes the eight Santa Barbara rows to live status after deployment; all 48 rows retain their amounts, calculations, source locators and factual review dates from version 2026-11-17.1. Checks establish exact live input hashes, uniqueness, component-sum equality, CSV/JSON agreement and preservation of those factual fields. A passing arithmetic check does not establish a real case's amount.
+This export preserves reviewed, manually sourced school reference data. Source PDF hashes, physical page numbers, county scope, printed edition dates and derivation references accompany the rows. It is not an automated statewide scrape. The original 48 records remain exactly as published in version 2026-11-17.2 and match the verified school website release. One additional reviewed Santa Barbara VC 22450(a) reference is live after the separately verified PR #210 school release. Its explicit row review date is November 17, 2026; the source-document review dates remain November 16. Checks establish exact live input hashes, uniqueness, component-sum equality, CSV/JSON agreement and preservation of every original record, including its release lineage. A passing arithmetic check does not establish a real case's amount.
 
 The court-school fee table is exported separately from the maintained public court-fee guide. It includes 25 dated observations and five unknown amounts. Only the three specified November 17 primary-page checks and the retained November 16 Santa Barbara manual check update their corroboration dates. A checked date is not an effective date. The other observations remain historical, with their original dates and source links.
 
@@ -17,13 +17,13 @@ The court-school fee table is exported separately from the maintained public cou
 | `scenario` | `ordinary-first-offense`; additional assumptions are in the companion JSON |
 | `baseFineCents`, `scheduledTotalCents` | Integer cents; scheduled/reference total, never actual case balance |
 | `componentsCents` | Named component map in JSON; flattened `*Cents` columns in CSV |
-| `schoolPublicationStatus` | `live` for all 48 current rows; dataset and website publication remain distinct |
-| `schoolSourceCommit`, `pendingPullRequest` | School release identifiers; pending PR is null for every current row |
+| `schoolPublicationStatus` | `live` for all 49 current rows; dataset publication and school deployment remain distinct |
+| `schoolSourceCommit`, `pendingPullRequest` | Per-row school release lineage: the original 48 records retain PR #209 and the new stop-sign row records PR #210. Pending PR is null for all current rows. Aggregate metadata identifies the latest website release |
 | `sourceId`, `sourceUrl`, `sourceSha256` | Main source and hash of the bytes that were reviewed |
 | `pdfPage`, `scopePages` | One-based PDF page containing the row and pages qualifying its scope |
 | `referenceKind` | Printed schedule reference or calculation using local rules |
 | `calculation` | JSON formula and all source/page references; split into formula and JSON-encoded source-reference cells in CSV |
-| `reviewedAt` | Recorded review date of the main source, not a guarantee of current applicability |
+| `reviewedAt` | Explicit row review date when supplied, otherwise the previously exported source review date. Document dates remain separate in the source catalog |
 
 ## Court-fee fields
 
@@ -41,7 +41,7 @@ Suitable: inspecting sourced examples, reproducing the listed arithmetic, evalua
 
 Unsuitable: setting a driver's case balance, deciding guilt or eligibility, paying a citation, applying 2026 values to 2027, summing multiple charges without the court's rules, inferring statewide completeness, or representing pending rows as deployed school behavior. The actual court notice and current official instructions control the case.
 
-There are no train/test labels or predictive targets. Hugging Face's `train` split is a file-loader convention only. The complete and live files contain the same 48 rows and must not be concatenated. The pending JSON is empty and the pending CSV contains only its header; these download files are retained for compatibility. All 58 names in county coverage are a coverage inventory, not 58 supported fee schedules.
+There are no train/test labels or predictive targets. Hugging Face's `train` split is a file-loader convention only. The complete and live files contain the same 49 rows and must not be concatenated. The pending JSON is empty and the pending CSV contains only its header; these download files are retained for compatibility. VC 22450(a) has one reviewed county amount; the other 57 county amounts remain unknown. Overall county coverage counts a county with at least one reference and does not imply coverage for every code. All 58 names in county coverage are a coverage inventory, not 58 supported fee schedules.
 
 ## Maintenance and correction
 

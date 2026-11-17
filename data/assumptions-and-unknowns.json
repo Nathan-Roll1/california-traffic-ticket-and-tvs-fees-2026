@@ -158,6 +158,29 @@
           ]
         }
       ]
+    },
+    {
+      "code": "22450(a)",
+      "label": "Failure to stop at a stop sign",
+      "speedBands": [],
+      "points": 1,
+      "notes": [
+        "Confirm subsection (a). Subsection (b) concerns a railroad grade crossing and is not substituted.",
+        "Only Santa Barbara has a reviewed ordinary stop-sign amount here. Construction, maintenance and other enhanced-zone cases are excluded; the schedule lists those separately.",
+        "One point is the ordinary schedule entry, not a determination about your driving record or traffic-school eligibility."
+      ],
+      "sourceIds": [
+        "santaBarbara2026"
+      ],
+      "sourcePages": [
+        {
+          "sourceId": "santaBarbara2026",
+          "pages": [
+            30,
+            82
+          ]
+        }
+      ]
     }
   ]
 }

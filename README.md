@@ -33,9 +33,9 @@ configs:
 
 # California traffic ticket and traffic-school court fees, 2026
 
-An independently curated, source-linked dataset from [California Licensing Education](https://californialicensingeducation.com/). It contains **48 ordinary first-offense ticket references across six counties** and **25 dated county court traffic-school fee observations**. Every ticket amount has a source PDF, page locator and SHA-256. Dollar amounts are represented as integer US cents.
+An independently curated, source-linked dataset from [California Licensing Education](https://californialicensingeducation.com/). It contains **49 ordinary first-offense ticket references across six counties** and **25 dated county court traffic-school fee observations**. Every ticket amount has a source PDF, page locator and SHA-256. Dollar amounts are represented as integer US cents.
 
-**Release status as of November 17, 2026:** All 48 ticket references across six counties are in the verified school website release, including the eight Santa Barbara references. Dataset version **2026-11-17.2** updates their publication status after school release PR #209. The ticket amounts, calculations and factual source dates are unchanged from version 2026-11-17.1.
+**Release status as of November 17, 2026:** All 49 references are present in the verified school website release. Version 2026-11-17.3 adds one Santa Barbara stop-sign reference, VC 22450(a), after its separate school release. The original 48 records, including their source commits and review dates, are unchanged. Dataset publication and website deployment are recorded separately in the release metadata.
 
 Use the [CLE ticket decoder](https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/) for the public tool, the [cost guide](https://traffic.californialicensingeducation.com/traffic-school-cost/) for separating school and court costs, and the [court-fee guide](https://traffic.californialicensingeducation.com/traffic-school-court-fees/) for county observations. `/tools/` is a directory of tools, not the decoder.
 
@@ -43,8 +43,8 @@ Use the [CLE ticket decoder](https://traffic.californialicensingeducation.com/ca
 
 | File | Contents |
 | --- | --- |
-| `data/ticket-references.csv` and `.json` | 48 sourced references with school publication status, components and source locators |
-| `data/ticket-references-live.csv` and `.json` | 48 references in the accepted school website release: Glenn, Los Angeles, Orange, San Diego, Santa Barbara and Siskiyou |
+| `data/ticket-references.csv` and `.json` | 49 sourced references with school publication status, components and source locators |
+| `data/ticket-references-live.csv` and `.json` | 49 references in the accepted school website release: Glenn, Los Angeles, Orange, San Diego, Santa Barbara and Siskiyou |
 | `data/ticket-references-pending.csv` and `.json` | Empty compatibility files; there are no pending references in this version |
 | `data/court-traffic-school-fees.csv` and `.json` | 25 county observations: 20 stated amounts and five unknown amounts |
 | `data/county-coverage.csv` and `.json` | All 58 county names, with six supported counties and 52 counties with unknown ticket-reference amounts |
@@ -53,7 +53,7 @@ Use the [CLE ticket decoder](https://traffic.californialicensingeducation.com/ca
 | `DATA_CARD.md` | Methodology, field definitions, limitations and intended use |
 | `metadata.json` | Dataset version, source commits, release boundary and license scope |
 
-The ticket rows cover Vehicle Code 22349(a) and 22350 in the 1–15, 16–25 and 26-plus mph bands, 21453(a), and ordinary first-offense 23123.5(a). A speed band is an input to the reference, not a determination of guilt or traffic-school eligibility. Fifty-two counties have no reviewed ticket amount in this dataset or the currently deployed 48-row tool. A court-school fee observation does not establish ticket-amount coverage for that county.
+The ticket rows cover Vehicle Code 22349(a) and 22350 in the 1–15, 16–25 and 26-plus mph bands, 21453(a), ordinary first-offense 23123.5(a), and VC 22450(a). Stop-sign amounts are reviewed only for Santa Barbara and remain unknown for the other 57 counties. The stop-sign reference excludes railroad-crossing subsection (b) and enhanced-zone cases. A speed band is an input to the reference, not a determination of guilt or traffic-school eligibility. Overall, six counties have at least one reviewed ticket amount and 52 have none. This does not mean every code has coverage in each of the six counties. The verified deployed tool contains all 49 references. A court-school fee observation does not establish ticket-amount coverage for that county.
 
 Court-fee observations retain their actual check dates, mainly October–November 2026. November 17 primary checks corroborated San Diego $52, Los Angeles $64 and Riverside $52. The retained November 16 manual official-page check corroborated Santa Barbara $66. Other retained values were not silently redated to this publication date. Unknown amounts are blank in CSV and `null` in JSON, never zero.
 
@@ -67,7 +67,7 @@ Court traffic-school administrative fees are a separate table. They exclude the 
 
 ## Provenance and updates
 
-The accepted 48-row website release is school commit `cda2ee440c8c78535ee1c614cae0f8d416042f45`, release PR #209, Pages deployment `b443a400-f0b8-4edc-a84d-58a7a67b2457`, created November 17, 2026 at 8:42 a.m. Pacific. The school repository is private; these are release identifiers. Reader-accessible references are the [public decoder](https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/), [operator information](https://traffic.californialicensingeducation.com/operator/) and the official court sources in each row. `metadata.json` records the exact input hashes, accepted deployment and prior dataset release. The public dataset repository contains this curated export, separate from the private school source. PDF page numbers are one-based physical PDF pages, which may differ from printed page labels.
+The accepted 49-row website release is school commit `b8e055c48838e81e4ce35a163b5ab4404fd8ef2c`, release PR #210, Pages deployment `5f25f1ae-aa46-48ed-885c-cb38fbfe041a`, created November 17, 2026 at 9:14 a.m. Pacific. The school repository is private; these are release identifiers. Reader-accessible references are the [public decoder](https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/), [operator information](https://traffic.californialicensingeducation.com/operator/) and the official court sources in each row. `metadata.json` records the exact input hashes, accepted deployment and prior dataset releases. The public dataset repository contains this curated export, separate from the private school source. The original 48 records retain their PR #209 source commit `cda2ee440c8c78535ee1c614cae0f8d416042f45`; only the added stop-sign row records PR #210. The live data SHA-256 is `10953a2386cb59d618540ac5c18e2e5642d958b20fdc79b2d4287f321aba2bb8`. The stop-sign row was reviewed November 17, 2026, while its official source-document review dates remain November 16, 2026. Source-document dates are not silently advanced by a new row review. PDF page numbers are one-based physical PDF pages, which may differ from printed page labels.
 
 This package links official sources; it does **not** redistribute court PDFs, copied court prose, citations from real drivers, student information, payment records or credentials. Source retrieval dates do not replace edition, adoption or effective dates. Unverified dates remain `null`. Historical or contradictory source documents are labeled in the source catalog and do not silently supersede a current schedule.
 
@@ -79,6 +79,6 @@ Corrections should identify the row, official source, edition and page. Data rev
 
 The original selection, arrangement, annotations and curation are offered under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) to the extent copyright or database rights apply. This does not relicense third-party court documents, trademarks, or facts outside copyright. See [LICENSE](https://github.com/Nathan-Roll1/california-traffic-ticket-and-tvs-fees-2026/blob/main/LICENSE).
 
-Suggested credit: “California Licensing Education, *California Traffic Ticket and Traffic-School Court Fees (2026)*, version 2026-11-17.2, CC BY 4.0.” Retain source citations, link the license and indicate changes. Where useful, link the [ticket decoder](https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/) and [cost guide](https://traffic.californialicensingeducation.com/traffic-school-cost/). This is a suggested attribution format, not an additional restriction or endorsement requirement.
+Suggested credit: “California Licensing Education, *California Traffic Ticket and Traffic-School Court Fees (2026)*, version 2026-11-17.3, CC BY 4.0.” Retain source citations, link the license and indicate changes. Where useful, link the [ticket decoder](https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/) and [cost guide](https://traffic.californialicensingeducation.com/traffic-school-cost/). This is a suggested attribution format, not an additional restriction or endorsement requirement.
 
 CLE is the dataset curator and a private education provider, not a court or government agency. Hosting this dataset on a public platform does not imply that platform's endorsement, current school licensing verification, court acceptance, or that search engines have indexed it.

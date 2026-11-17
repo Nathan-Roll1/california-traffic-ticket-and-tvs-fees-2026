@@ -288,7 +288,7 @@
   },
   {
     "county": "Santa Barbara",
-    "liveTicketReferenceCount": 8,
+    "liveTicketReferenceCount": 9,
     "pendingTicketReferenceCount": 0,
     "ticketAmountCoverage": "supported_live",
     "hasCourtSchoolFeeObservation": true

@@ -1,10 +1,10 @@
 {
-  "datasetVersion": "2026-11-17.2",
+  "datasetVersion": "2026-11-17.3",
   "publisher": "California Licensing Education",
   "createdAt": "2026-11-17",
   "currency": "USD",
-  "ticketReferenceCount": 48,
-  "liveTicketReferenceCount": 48,
+  "ticketReferenceCount": 49,
+  "liveTicketReferenceCount": 49,
   "pendingTicketReferenceCount": 0,
   "liveTicketCounties": 6,
   "pendingTicketCounties": [],
@@ -12,20 +12,20 @@
   "courtFeeObservations": 25,
   "courtFeeNumericObservations": 20,
   "courtFeeUnknownObservations": 5,
-  "schoolLiveCommit": "cda2ee440c8c78535ee1c614cae0f8d416042f45",
+  "schoolLiveCommit": "b8e055c48838e81e4ce35a163b5ab4404fd8ef2c",
   "schoolPendingCommit": null,
   "pendingPullRequest": null,
-  "schoolLivePagesDeploymentId": "b443a400-f0b8-4edc-a84d-58a7a67b2457",
+  "schoolLivePagesDeploymentId": "5f25f1ae-aa46-48ed-885c-cb38fbfe041a",
   "decoderUrl": "https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/",
   "costGuideUrl": "https://traffic.californialicensingeducation.com/traffic-school-cost/",
   "courtFeeGuideUrl": "https://traffic.californialicensingeducation.com/traffic-school-court-fees/",
   "license": "CC-BY-4.0",
   "licenseScope": "Original selection, arrangement, annotations and curation only, to the extent copyright or database rights apply. No claim to relicense third-party source documents or facts.",
   "inputs": {
-    "liveTicketDataSha256": "d43e2a64ab7d3f3ec30979876c8204207058a16107d27d2791eaa7612674cb9e",
-    "candidateTicketDataSha256": "d43e2a64ab7d3f3ec30979876c8204207058a16107d27d2791eaa7612674cb9e",
+    "liveTicketDataSha256": "10953a2386cb59d618540ac5c18e2e5642d958b20fdc79b2d4287f321aba2bb8",
+    "candidateTicketDataSha256": "10953a2386cb59d618540ac5c18e2e5642d958b20fdc79b2d4287f321aba2bb8",
     "courtFeeTableSha256": "879810628311a1ca1cc0f85d53a23f6f369bbe09337d07702b5561f1b67469c4",
-    "previousLiveTicketDataSha256": "8cf26a671bfd256dfe11ac7de3b54ef55643090df54ca1c3d51b24402a2be747"
+    "previousLiveTicketDataSha256": "d43e2a64ab7d3f3ec30979876c8204207058a16107d27d2791eaa7612674cb9e"
   },
   "legalReference": {
     "citation": "California Vehicle Code §11219.5(a)",
@@ -35,9 +35,9 @@
     "verificationMethod": "Official California Legislative Information section page, accessibility text and visible screenshot reviewed",
     "scope": "Receipt requirement only; no numerical fee rule is derived from this section."
   },
-  "schoolLiveReleasePullRequest": 209,
-  "schoolLiveReleaseCreatedAtUTC": "2026-11-17T16:42:32.660062Z",
-  "schoolLiveReleaseVerifiedAtUTC": "2026-11-17T16:47:22.660233+00:00",
+  "schoolLiveReleasePullRequest": 210,
+  "schoolLiveReleaseCreatedAtUTC": "2026-11-17T17:14:42.046802Z",
+  "schoolLiveReleaseVerifiedAtUTC": "2026-11-17T17:17:55.379526+00:00",
   "operatorUrl": "https://traffic.californialicensingeducation.com/operator/",
   "previousDatasetVersions": [
     {
@@ -48,6 +48,55 @@
       "pendingTicketReferenceCount": 8,
       "githubDatasetCommit": "f74532c8d32f1648cb49d8bc209a9f7d5914cc6a",
       "huggingFaceDatasetCommit": "28ac246bbbfe399b3696d1edc9d4ade2c2140ca5"
+    },
+    {
+      "datasetVersion": "2026-11-17.2",
+      "schoolLiveCommit": "cda2ee440c8c78535ee1c614cae0f8d416042f45",
+      "schoolLivePagesDeploymentId": "b443a400-f0b8-4edc-a84d-58a7a67b2457",
+      "liveTicketReferenceCount": 48,
+      "pendingTicketReferenceCount": 0,
+      "githubDatasetCommit": "d3f3104f9a18376838d52f169393d91cf5ea1658",
+      "huggingFaceDatasetCommit": "ec1beeea41a90873cfbbc23e27a8a43100a24de1"
+    }
+  ],
+  "ticketCodeCount": 5,
+  "rowReviewDatePolicy": "Use an explicit row reviewedAt when present; preserve all previously published row dates. Source-document review dates remain in the source catalog.",
+  "schoolSourceCommitPolicy": "Per-row lineage: retain the accepted source commit of each previously published row. The new stop-sign row records PR #210; the original 48 rows retain PR #209. Aggregate website release metadata identifies the latest release containing all rows.",
+  "ticketCodeCoverage": [
+    {
+      "code": "22349(a)",
+      "reviewedCountyCount": 6,
+      "unknownCountyCount": 52,
+      "liveReferenceCount": 18,
+      "pendingReferenceCount": 0
+    },
+    {
+      "code": "22350",
+      "reviewedCountyCount": 6,
+      "unknownCountyCount": 52,
+      "liveReferenceCount": 18,
+      "pendingReferenceCount": 0
+    },
+    {
+      "code": "21453(a)",
+      "reviewedCountyCount": 6,
+      "unknownCountyCount": 52,
+      "liveReferenceCount": 6,
+      "pendingReferenceCount": 0
+    },
+    {
+      "code": "23123.5(a)",
+      "reviewedCountyCount": 6,
+      "unknownCountyCount": 52,
+      "liveReferenceCount": 6,
+      "pendingReferenceCount": 0
+    },
+    {
+      "code": "22450(a)",
+      "reviewedCountyCount": 1,
+      "unknownCountyCount": 57,
+      "liveReferenceCount": 1,
+      "pendingReferenceCount": 0
     }
   ]
 }
