@@ -37,7 +37,7 @@ An independently curated, source-linked dataset from [California Licensing Educa
 
 **Release status as of November 17, 2026:** All 49 references are present in the verified school website release. Version 2026-11-17.3 adds one Santa Barbara stop-sign reference, VC 22450(a), after its separate school release. The original 48 records, including their source commits and review dates, are unchanged. Dataset publication and website deployment are recorded separately in the release metadata.
 
-Use the [CLE ticket decoder](https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/) for the public tool, the [cost guide](https://traffic.californialicensingeducation.com/traffic-school-cost/) for separating school and court costs, and the [court-fee guide](https://traffic.californialicensingeducation.com/traffic-school-court-fees/) for county observations. `/tools/` is a directory of tools, not the decoder.
+Use the [CLE ticket decoder](https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/) for the public tool, the [cost guide](https://traffic.californialicensingeducation.com/traffic-school-cost/) for separating school and court costs, and the [court-fee guide](https://traffic.californialicensingeducation.com/traffic-school-court-fees/) for county observations. For local instructions, use the [San Diego traffic school guide](https://traffic.californialicensingeducation.com/san-diego-traffic-school/). The [tools directory](https://traffic.californialicensingeducation.com/tools/) lists the other calculators and printable guides.
 
 ## What is included
 
