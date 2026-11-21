@@ -39,6 +39,10 @@ An independently curated, source-linked dataset from [California Licensing Educa
 
 Use the [CLE ticket decoder](https://traffic.californialicensingeducation.com/california-speeding-ticket-cost/) for the public tool, the [cost guide](https://traffic.californialicensingeducation.com/traffic-school-cost/) for separating school and court costs, and the [court-fee guide](https://traffic.californialicensingeducation.com/traffic-school-court-fees/) for county observations. For local instructions, use the [San Diego traffic school guide](https://traffic.californialicensingeducation.com/san-diego-traffic-school/). The [tools directory](https://traffic.californialicensingeducation.com/tools/) lists the other calculators and printable guides.
 
+## Traffic school and online fine reduction
+
+The [county payment-help supplement](data/traffic-school-payment-help.csv) records two court instructions checked November 20, 2026. Imperial directs people seeking school away from its online fine-reduction tool. San Bernardino says its online ability-to-pay tool cannot request school. Each row links to the court and names the alternate route. These observations cover only the named courts. Missing counties have unknown procedures. Neither row determines an individual driver’s eligibility.
+
 ## What is included
 
 | File | Contents |
